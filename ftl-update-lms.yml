@@ -1,0 +1,10 @@
+---
+- name: Update SCORMCloud with FTL student lab status
+  hosts:          localhost
+  connection:     local
+  gather_facts:   false
+  become:         false
+
+  roles:
+    - scormcloud-updater
+...
