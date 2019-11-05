@@ -1,7 +1,0 @@
----
-# External role to update scormcloud
-
-- src: https://github.com/redhat-gpe/scormcloud-updater.git
-  name: scormcloud-updater 
-  #  version: 0.1.0
-...  
