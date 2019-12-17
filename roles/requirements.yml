@@ -3,5 +3,5 @@
 
 - src: https://github.com/redhat-gpe/scormcloud-updater.git
   name: scormcloud-updater 
-  version: 0.1.2
+  version: 0.1.3
 ...  
