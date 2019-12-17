@@ -1,0 +1,15 @@
+---
+- name: Output vlaues of custom cred SCORMCloud Creds
+  hosts:          localhost
+  connection:     local
+  gather_facts:   false
+  become:         false
+
+  tasks:
+
+    - name: Debug values of scormcloud base creds
+      debug:
+        msg:
+          - "scormcloud_api_key: {{ scormcloud_api_key }}"
+          - "scormcloud_api_secret: {{ scormcloud_api_secret }}"
+...
