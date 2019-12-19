@@ -1,0 +1,15 @@
+---
+- name: Output vlaues of custom cred SCORMCloud Creds
+  hosts:          localhost
+  connection:     local
+  gather_facts:   false
+  become:         false
+
+  tasks:
+
+    - name: Debug values of scormcloud base creds
+      debug:
+        msg:
+         -  "aws_access_key_id = {{ aws_access_key_id }}"
+         -  "aws_secret_access_key = {{ aws_secret_access_key }}"
+...
