@@ -10,7 +10,7 @@
 
   tasks:
 
-    - name: Debug values of scormcloud base creds
+    - name: Debug values of AWS creds
       debug:
         msg:
          -  "aws_access_key_id = {{ AWS_ACCESS_KEY_ID }}"
